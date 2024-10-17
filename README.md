@@ -62,7 +62,10 @@ Output
 The output of the above code is as follow:
 Following is the Depth-First Search
 5 3 2 4 8 7
-[17-10-2024 21:43] Ch Venkatesh Warullu: TASK:2
+
+ 
+ 
+ TASK:2
 Implementation of Hill climbing algorithm for Heuristic search approach using following constraints in python.
 from sys import maxsize
 from itertools import permutations
@@ -93,9 +96,11 @@ if _name_ == "_main_":
 output: 
      80
 
-Result:
-Thus the Implementation of Hill climbing algorithm for Heuristic search approach for travelling salesman problem using python was successfully executed and output was verified.
-[17-10-2024 21:46] Ch Venkatesh Warullu: TASK:3
+
+
+
+
+: TASK:3
 Implementation of A * Algorithm to find the optimal path using Python by following constraints.
 def aStarAlgo(start_node, stop_node):
     open_set = set([start_node])
@@ -164,6 +169,9 @@ def aStarAlgo(start_node, stop_node):
     return None
 
 
+
+
+task 4
 # define function to return neighbors and their distances from the passed node
 def get_neighbors(v):
     if v in Graph_nodes:
@@ -251,9 +259,10 @@ if _name_ == "_main_":
 
 Sample output : 
 The optimal value is :5 
-Result: 
-Thus creating a program for searching problem using Mini-max algorithm with Alpha-Beta pruning approach was successfully executed and output was verified.
-[17-10-2024 21:50] Ch Venkatesh Warullu: TASK:5
+
+
+
+TASK:5
 Implementation of Ant Colony Optimization to Optimize Ride-Sharing Trip Duration using Python by following constraints.
 Aim: To Implement Ant Colony Optimization to Optimize Ride-Sharing Trip Duration using Python.
 import numpy as np
@@ -381,7 +390,10 @@ Route of all ants at the end:
 Best path: [1.4.3.5.2.1]
 
 Cost of the best path=52.
-[17-10-2024 21:51] Ch Venkatesh Warullu: Solve a Map Coloring problem using constraint satisfaction approach by applying following constraints
+
+
+task 6:
+: Solve a Map Coloring problem using constraint satisfaction approach by applying following constraints
 
 Aim: To Solve a Map Coloring problem using constraint satisfaction approach using Graphonline and visualago online simulator
 Program:
@@ -428,7 +440,10 @@ if _name_ == '_main_':
     g.graph_coloring(m)
 
 Output:
-[17-10-2024 21:53] Ch Venkatesh Warullu: TASK:7
+
+ 
+ 
+ TASK:7
 Implementation of Monkey Banana Problem in Goal Stack planning using python by applying following constraints.
 
 Aim: To Implement the Monkey Banana Problem in Goal Stack planning using python 
@@ -485,7 +500,11 @@ Plan:
 Move Monkey from 0 to 1
 Climb box at 1 Up
 Have banana at 1
-[17-10-2024 21:54] Ch Venkatesh Warullu: TASK:8
+[
+
+
+
+TASK:8
 Implementation of N-queen problem using backtracking algorithm using prolog In the 4 Queens problem the object is to place 4 queens on a chessboard in such a way that no queens can capture a piece.
 Program:
 # Python3 program to solve N Queen
@@ -551,7 +570,12 @@ Output:
 1 0 0 0 
 0 0 0 1 
 0 1 0 0
-[17-10-2024 21:59] Ch Venkatesh Warullu: To Build an Intelligent Chatbot system with Python and Dialog-flow using Interactive
+
+
+
+task 9:
+
+To Build an Intelligent Chatbot system with Python and Dialog-flow using Interactive
 Text Mining Framework for Exploration of Semantic Flows in Large Corpus of Text.
 [17-10-2024 22:00] Ch Venkatesh Warullu: Task 9a
 To Build an Intelligent Chatbot system with Python and Dialog-flow using Interactive
@@ -623,7 +647,12 @@ return ChatGPT_reply
 demo = gradio.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title =
 "INTELLIGENT CHATBOT")
 demo.launch(share=True)
-[17-10-2024 22:02] Ch Venkatesh Warullu: Task 10
+
+ 
+ 
+ 
+ 
+ Task 10
 Implement simple facts using python
 
 Aim: To implement simple facts and verify using python
